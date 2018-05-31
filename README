@@ -1,0 +1,27 @@
+Ryan Baten Advanced Graphics Project
+------------------------------------
+Written on an Ubuntu 16.04 system that had an nvidia graphics card
+
+How to build and run:
+---------------------
+qmake
+make
+./project
+
+Instructions:
+-------------
+Procedural Generation:
+  - Look at those pretty waves. Use the comboboxes on the left to switch shaders and/or switch modes.
+
+Heightfield approximations: 
+  - The x and y sliders change where the disturbance will be added.
+  - Press the add disturbance button to generate a ripple.
+  - Reset resets the particles.
+  - After I had plaed around with shaders to try to see the waves easily, the ones
+    I found to work the best were the color shader and the black and white shader.
+    Use those for best results.
+
+Obstacle mode:
+  - The center contains a square which act like an obstacle for the waves.
+  - Choose a sufficiently off center disturbance point and then generate a disturbance.
+  - Watch as the waves interact with the invisible obstacle.
